@@ -4,7 +4,7 @@ This repository contains the main code used to analyse drought-induced resilienc
 
 1. Code_resilience_example.py:
 
-This folder provides example scripts for estimating ecosystem resilience from remotely sensed vegetation time series.
+This code provides example scripts for estimating ecosystem resilience from remotely sensed vegetation time series.
 
 The resilience metric used in this study is based on the first-order autoregressive coefficient, AR(1), estimated from a dynamic linear model (DLM). Following the theory of critical slowing down, higher AR(1) values indicate stronger temporal persistence and slower recovery from perturbations.
 
@@ -15,13 +15,13 @@ Zhang, Y. et al. Warming and disturbances affect Arctic-boreal vegetation resili
 
 2. Code_Rf.py:
 
-This folder contains scripts for Random Forest modelling.
+This code contains scripts for Random Forest modelling.
 
 The Random Forest models were used to examine the nonlinear relationships between resilience-related responses and potential environmental drivers, such as climate, soil nutrients and vegetation conditions.
 
 3. Code_regress.py:
 
-This folder contains scripts for regression-based sensitivity analysis.
+This code contains scripts for regression-based sensitivity analysis.
 
 The regression analyses were used to identify the dominant factor associated with resilience or productivity responses within different ecological units or forest biomes.
 
